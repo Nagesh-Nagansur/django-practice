@@ -47,7 +47,7 @@ class PostLike(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        db_table = "like"
+        db_table = "post_like"
     
     def __str__(self):
         return f"Like by {self.user.username} on {self.post}"
@@ -59,7 +59,7 @@ class CommentLike(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        db_table = "like"
+        db_table = "comment_like"
     
     def __str__(self):
         return f"Like by {self.user.username} on {self.post}"

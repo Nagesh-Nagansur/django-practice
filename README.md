@@ -2,15 +2,15 @@
 
 Models:
 
-User: Represents users of the platform with attributes like username, email, password, profile picture, etc.
+*User*: Represents users of the platform with attributes like username, email, password,      profile picture, etc.
 
-Post: Represents user posts with attributes like content, timestamp, likes, comments, etc.
-Comment: Represents comments on posts with attributes like content, timestamp, commenter, etc.
+*Post*: Represents user posts with attributes like content, timestamp, likes, comments, etc.
 
-Like: Represents likes on posts, linking users to posts they liked.
-Friendship: Represents friendships between users, indicating which users are friends with each other.
+*Comment*: Represents comments on posts with attributes like content, timestamp, commenter, etc.
 
-Follow: Represents followership, where users can follow other users to see their posts.
+*Like*: Represents likes on posts, linking users to posts they liked.
+
+*Follow*: Represents followership, where users can follow other users to see their posts.
 Relationships:
 
 One-to-Many:
